@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+
+}
+
+
+
+.main-dev {
+  height: 500px;
+  /* width: 500px; */
+/* background-color: aqua; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 10px;
+
+}
+
+.input-bar{
+  height: 50px;
+  width: 500px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  /* box-shadow: inset; */
+}
+
+
+
+
+.btn{
+
+  height: 50px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 20px;
+  cursor: pointer;
+}
+
+
+
+body{
+  background-image: url("https://images.unsplash.com/photo-1561470508-fd4df1ed90b2?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: #cccccc;
+  
+}
+
+
+.weather-app{
+  font-size: 80px;
+  text-align: center;
+}
+
+p{
+  /* font-weight: 50px; */
+  font-size: 25px;
+}
